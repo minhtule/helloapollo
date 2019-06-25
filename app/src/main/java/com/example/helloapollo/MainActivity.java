@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.TextView;
 
 import com.apollographql.apollo.ApolloCall;
 import com.apollographql.apollo.api.Response;
