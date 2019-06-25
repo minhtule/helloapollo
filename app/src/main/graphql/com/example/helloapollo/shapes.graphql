@@ -1,0 +1,18 @@
+query Shapes {
+  shapes {
+    ...Shape
+  }
+}
+
+fragment Shape on Shape {
+    ...Square
+    ...Circle
+}
+
+fragment Square on Square {
+    name
+}
+
+fragment Circle on Circle {
+    name
+}
